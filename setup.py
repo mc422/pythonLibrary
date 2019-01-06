@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from distutils.core import setup
+from setuptools import find_packages
 
 setup(
     name='SecurityTool',
@@ -8,5 +9,5 @@ setup(
     description='Honey Security Tools',
     author='Chao Meng',
     author_email='chao.meng@joinhoney.com',
-    packages=['security_tools'],
+    packages=find_packages()
 )
